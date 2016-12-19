@@ -1,0 +1,13 @@
+DISPLAY = backup @
+DISPLAY ALL
+RATSNEST
+DISPLAY None 
+DISPLAY Bottom Pads Vias Unrouted
+EXPORT IMAGE .\!PCB!bottomLayer.png MONOCHROME 1200;
+DISPLAY None 
+DISPLAY Top Pads Vias Unrouted 
+EXPORT IMAGE .\!PCB!TopLayer.png MONOCHROME 1200;
+DISPLAY None 
+DISPLAY Unrouted Dimension tPlace bPlace tNames tValues tDocu
+EXPORT IMAGE .\!PCB!DescriptionLayer.png MONOCHROME 1200;
+DISPLAY backup
