@@ -1,0 +1,59 @@
+EAGLE WSKAZOWKI:
+	Overlap error znaczy ze sciezki nachodza na siebie
+	mozna zwiekszyci min driil size bo tez bledy pokazuje
+
+
+SKRYPT DO WARSTW:
+	DISPLAY = backup @
+	DISPLAY ALL
+	RATSNEST
+	DISPLAY None 
+	DISPLAY Bottom Pads Vias Unrouted
+	EXPORT IMAGE .\!PCB!bottomLayer.png MONOCHROME 1200;
+	DISPLAY None 
+	DISPLAY Top Pads Vias Unrouted 
+	EXPORT IMAGE .\!PCB!TopLayer.png MONOCHROME 1200;
+	DISPLAY None 
+	DISPLAY Unrouted Dimension tPlace bPlace tNames tValues tDocu
+	EXPORT IMAGE .\!PCB!DescriptionLayer.png MONOCHROME 1200;
+	DISPLAY backup
+
+	tworzy plik PNG w kataogu z projektem
+	tylko warstwe BOT pamietaj zeby przed zdrukiem lustzrane odbicie zrobic i negatyw
+
+
+ETYKIETYT
+	kliknij label a zeby byly takei fajne zawieszki to u gory pojawia sie toolbar do etykeiti itam mozna modyfikowac
+
+ROZLANA MASA
+	na warstwie top albo bottom narysuj POLYGON (moze rectangle tez dziala) i daj ratsnest i rozlewa mase
+	przed ratsnest na polygonie i isolate = odleglosc od sciezek
+	aby cofnac daj RIPUP na krawedzi polygonu (nie widac jej, ale jest)
+
+sciezki TOP BOTTOM
+	w trakcie rsywoania srodkowy przycisk przelacza top/bottom
+
+OBROTY O 45STOPNI
+	kliasz ROTATE, wksazujesz obiekt i piszesz ( w tej konsoli) R45 i klikasz i sie obraca
+
+WIERTLA W EAGLEU:
+	fi[mm] / 25.4mm = wymiar do wybrania jako drillsize
+	3.00    [mm]===   0.11811   drill size w eaglu  
+	2.50    [mm]===   0.09843   drill size w eaglu  
+	2.50    [mm]===   0.09843   drill size w eaglu  
+	1.00    [mm]===   0.03937   drill size w eaglu  
+	0.80    [mm]===   0.03150   drill size w eaglu  
+	0.70    [mm]===   0.02756   drill size w eaglu  
+	0.60    [mm]===   0.02362   drill size w eaglu  
+	0.50    [mm]===   0.01969   drill size w eaglu
+	pamietaj zeby wczesniej dac troche wieksze pady w vias niz te domyslne
+  
+GRID:
+    size: jednostki siatki pokazywanej i skok snapa
+	alt size: jw ale przy wcisnietym ALT - to dawaj np 4xmneijsze albo 10x itp
+	
+library:
+	zmiana nazwy elementu: rename oldname newname ('-' zamiast spacji), i trza w kazdej zakldace: w package i device, i symbol
+
+
+  

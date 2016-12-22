@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1787,6 +1787,9 @@
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<pad name="P$1" x="-8.89" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-8.89" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-8.89" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X07">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1856,6 +1859,9 @@
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<pad name="P$1" x="-7.62" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-7.62" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-7.62" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1916,6 +1922,9 @@
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<pad name="P$1" x="-6.35" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-6.35" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X05">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1967,6 +1976,9 @@
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<pad name="P$1" x="-5.08" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-5.08" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-5.08" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X04">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2009,6 +2021,9 @@
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<pad name="P$1" x="-3.81" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-3.81" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X03">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2042,6 +2057,9 @@
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<pad name="P$1" x="-2.54" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-2.54" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2066,6 +2084,9 @@
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<pad name="P$1" x="-1.27" y="0.79375" drill="1" shape="square"/>
+<pad name="P$2" x="-1.27" y="-0.79375" drill="1" shape="square"/>
+<pad name="P$3" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X01">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4514,6 +4535,9 @@
 <rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
 <rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
 <rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-1.27" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-1.27" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-1.27" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X03/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4541,6 +4565,10 @@
 <rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-2.54" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-2.54" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-2.54" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X04/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4575,6 +4603,10 @@
 <rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
 <rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
 <rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-3.81" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-3.81" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-3.81" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X05/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4616,6 +4648,10 @@
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 <rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
+<rectangle x1="-5.461" y1="-2.921" x2="-4.699" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-5.08" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-5.08" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-5.08" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X06/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4664,6 +4700,10 @@
 <rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
 <rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
 <rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
+<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-6.35" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-6.35" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-6.35" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X07/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4719,6 +4759,10 @@
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 <rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
 <rectangle x1="7.239" y1="-2.921" x2="8.001" y2="-1.905" layer="21"/>
+<rectangle x1="-8.001" y1="-2.921" x2="-7.239" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-7.62" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-7.62" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-7.62" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X08/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4781,6 +4825,10 @@
 <rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
 <rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 <rectangle x1="8.509" y1="-2.921" x2="9.271" y2="-1.905" layer="21"/>
+<rectangle x1="-9.271" y1="-2.921" x2="-8.509" y2="-1.905" layer="21"/>
+<pad name="P$1" x="-8.89" y="-3.01625" drill="1" shape="square"/>
+<pad name="P$2" x="-8.89" y="-4.60375" drill="1" shape="square"/>
+<pad name="P$3" x="-8.89" y="-3.81" drill="1" shape="long" rot="R90"/>
 </package>
 <package name="1X09/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
