@@ -2,7 +2,6 @@ EAGLE WSKAZOWKI:
 	Overlap error znaczy ze sciezki nachodza na siebie
 	mozna zwiekszyci min driil size bo tez bledy pokazuje
 
-
 SKRYPT DO WARSTW:
 	DISPLAY = backup @
 	DISPLAY ALL
@@ -20,7 +19,6 @@ SKRYPT DO WARSTW:
 
 	tworzy plik PNG w kataogu z projektem
 	tylko warstwe BOT pamietaj zeby przed zdrukiem lustzrane odbicie zrobic i negatyw
-
 
 ETYKIETYT
 	kliknij label a zeby byly takei fajne zawieszki to u gory pojawia sie toolbar do etykeiti itam mozna modyfikowac
@@ -51,9 +49,17 @@ WIERTLA W EAGLEU:
 GRID:
     size: jednostki siatki pokazywanej i skok snapa
 	alt size: jw ale przy wcisnietym ALT - to dawaj np 4xmneijsze albo 10x itp
+	siatka domyslna 1.27mm - 50mils
 	
-library:
+LIBRARY:
 	zmiana nazwy elementu: rename oldname newname ('-' zamiast spacji), i trza w kazdej zakldace: w package i device, i symbol
 
 
-  
+obudowa rezystrow SMD: 0805 - tak ajeszcze dam rade przylutowac
+a lepsze 1206, jest 2.3mm odstepy miedz padami i mozna sciezke wcisnac
+
+SCIEZKI WYCHODZA SPOKO:
+	zasilania 0.032in=0.81mm
+	zwykle 0.012in=0.3mm  
+	odstepy 0.024in=0.61mm (takie jak w steroniku IR sa ok, 1mm
+	zeby tes odstepy byly w polygon dawaj prop->isolate 0.024mm
