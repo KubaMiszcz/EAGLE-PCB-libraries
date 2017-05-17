@@ -19,24 +19,61 @@ ASSIGN   S+C+S 'write;';                         # Shift+Control+S     save file
 ASSIGN A+S+C+S 'write;';                         # Alt+Shift+Control+S save file
 ASSIGN     C+M 'DESCRIPT'
 ASSIGN     C+E 'run edit-used-dev-pac-sym.ulp;'; # Control+E         edit used Device/Package/Smbol, cross jump
+#moje skroty
+ASSIGN	A+D 'Delete'
+ASSIGN	A+R 'Rotate'
+ASSIGN	A+S 'net'
+#ASSIGN	A+W 'Wire'
+ASSIGN	A+Z 'Move'
+ASSIGN	A+A 'Add'
+ASSIGN	A+V 'value'
+ASSIGN	A+g 'group'
+ASSIGN	A+c 'copy'
+ASSIGN	A+b 'split'
+
 
 PAC:
 ASSIGN   C+A+N 'grid mil; ch size 50; grid last; change lay tname; text  >NAME'
 ASSIGN   C+A+V 'grid mil; ch size 50; grid last; change lay tvalue; text  >VALUE'
+#moje skroty
+ASSIGN	A+D 'Delete'
+ASSIGN	A+R 'Rotate'
+ASSIGN	A+S 'net'
+#ASSIGN	A+W 'Wire'
+#ASSIGN	A+S 'Route'
+ASSIGN	A+Z 'Move'
+ASSIGN	A+A 'Add'
+ASSIGN	A+V 'value'
+ASSIGN	A+g 'group'
+ASSIGN	A+c 'copy'
+ASSIGN	A+b 'split'
 
 SYM:
 ASSIGN   C+S+N 'grid mil 50 on; ch size 70; change lay names; text  >NAME'
 ASSIGN   C+S+V 'grid mil 50 on; ch size 70; change lay values; text  >VALUE'
+#moje skroty
+ASSIGN	A+D 'Delete'
+ASSIGN	A+R 'Rotate'
+ASSIGN	A+S 'net'
+#ASSIGN	A+W 'Wire'
+#ASSIGN	A+S 'Route'
+ASSIGN	A+Z 'Move'
+ASSIGN	A+A 'Add'
+ASSIGN	A+V 'value'
+ASSIGN	A+g 'group'
+ASSIGN	A+c 'copy'
+ASSIGN	A+b 'split'
 
 SCH:
 ASSIGN     C+N 'run editnext-sheet.ulp;';          # Control-N edit next
 ASSIGN     C+P 'run editprev-sheet.ulp;';          # Control-N edit previous
 ASSIGN   S+C+P 'run cam2printer 1 schematic.cam;'  # start ULP
 ASSIGN     C+D 'run cam2dxf schematic.cam;'        # start ULP
+#moje skroty
 ASSIGN	A+D 'Delete'
 ASSIGN	A+R 'Rotate'
 ASSIGN	A+S 'net'
-ASSIGN	A+W 'Wire'
+#ASSIGN	A+W 'Wire'
 ASSIGN	A+Z 'Move'
 ASSIGN	A+A 'Add'
 ASSIGN	A+V 'value'
@@ -47,17 +84,19 @@ ASSIGN	A+b 'split'
 BRD:
 ASSIGN   S+C+P 'run cam2printer 0 layout2.cam;'    # start ULP
 ASSIGN     C+D 'run cam2dxf layout2.cam;'          # start ULP
+#moje skroty
 ASSIGN	A+D 'Delete'
 ASSIGN	A+R 'Rotate'
-ASSIGN	A+S 'net'
-ASSIGN	A+W 'Wire'
+#ASSIGN	A+S 'net'
+#ASSIGN	A+W 'Wire'
+ASSIGN	A+S 'Route'
 ASSIGN	A+Z 'Move'
 ASSIGN	A+A 'Add'
 ASSIGN	A+V 'value'
-ASSIGN	A+g 'group'
-ASSIGN	A+c 'copy'
-ASSIGN	A+q 'Ripup'
-ASSIGN	A+w 'route'
-ASSIGN	A+e 'ratsnest'
-ASSIGN	A+b 'split'
+ASSIGN	A+G 'group'
+ASSIGN	A+C 'copy'
+ASSIGN	A+B 'split'
+ASSIGN	A+F 'Ripup'
+ASSIGN	A+E 'Ratsnest'
+
 

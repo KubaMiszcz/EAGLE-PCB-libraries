@@ -25,7 +25,9 @@ ETYKIETYT
 
 ROZLANA MASA
 	na warstwie top albo bottom narysuj POLYGON (moze rectangle tez dziala) i daj ratsnest i rozlewa mase
-	przed ratsnest na polygonie i isolate = odleglosc od sciezek
+	POLYGON -> NAME -> GND
+	przed ratsnest na polygonie i ISOLATE = odleglosc od sciezek (0.32)
+	jakby cos nei dzialalo zaznacz w properties ORPHANS to robi wyspy nie polaczone z masa
 	aby cofnac daj RIPUP na krawedzi polygonu (nie widac jej, ale jest)
 
 sciezki TOP BOTTOM
@@ -36,14 +38,14 @@ OBROTY O 45STOPNI
 
 WIERTLA W EAGLEU:
 	fi[mm] / 25.4mm = wymiar do wybrania jako drillsize
-	3.00    [mm]===   0.11811   drill size w eaglu  
-	2.50    [mm]===   0.09843   drill size w eaglu  
-	2.50    [mm]===   0.09843   drill size w eaglu  
-	1.00    [mm]===   0.03937   drill size w eaglu  
-	0.80    [mm]===   0.03150   drill size w eaglu  
-	0.70    [mm]===   0.02756   drill size w eaglu  
-	0.60    [mm]===   0.02362   drill size w eaglu  
-	0.50    [mm]===   0.01969   drill size w eaglu
+	3.00mm ===   0.11811   drill size w eaglu  
+	2.50mm ===   0.09843   drill size w eaglu  
+	2.50mm ===   0.09843   drill size w eaglu  
+	1.00mm ===   0.03937   drill size w eaglu  
+	0.80mm ===   0.03150   drill size w eaglu  
+	0.70mm ===   0.02756   drill size w eaglu  
+	0.60mm ===   0.02362   drill size w eaglu  
+	0.50mm ===   0.01969   drill size w eaglu
 	pamietaj zeby wczesniej dac troche wieksze pady w vias niz te domyslne
   
 GRID:
@@ -62,4 +64,5 @@ SCIEZKI WYCHODZA SPOKO:
 	zasilania 0.032in=0.81mm
 	zwykle 0.012in=0.3mm  
 	odstepy 0.024in=0.61mm (takie jak w steroniku IR sa ok, 1mm
+	odstep miedzy padami SMD zeby przeszla jedna sciezka: 0.3+2*0.61=1.52mm
 	zeby tes odstepy byly w polygon dawaj prop->isolate 0.024mm
